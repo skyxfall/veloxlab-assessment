@@ -1,8 +1,12 @@
 # Take‑Home Assessment
 
-<img width="1701" height="1134" alt="image" src="https://github.com/user-attachments/assets/bc026267-3730-4347-a517-43263f2bc111" />
+<img width="1411" height="1358" alt="image" src="https://github.com/user-attachments/assets/0fd343f9-1325-4a44-b9f8-a541b1248e83" />
 
-<img width="1701" height="1134" alt="image" src="https://github.com/user-attachments/assets/f701ad7d-017c-404d-91d7-e4d4759c5ba0" />
+
+<img width="1411" height="888" alt="image" src="https://github.com/user-attachments/assets/420fba20-0d74-438d-8adc-467730e0003f" />
+
+
+<img width="1411" height="888" alt="image" src="https://github.com/user-attachments/assets/bd1db151-e4fc-4fa2-af92-62b35a451a64" />
 
 
 Welcome, candidate! This project contains **intentional issues** that mimic real‑world scenarios.
