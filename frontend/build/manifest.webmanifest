@@ -1,0 +1,18 @@
+{
+  "name": "Catalog",
+  "short_name": "Catalog",
+  "description": "Browse and search a catalog of items by name, category, and price.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#2563eb",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
