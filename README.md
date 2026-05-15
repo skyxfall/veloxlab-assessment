@@ -1,5 +1,10 @@
 # Take‑Home Assessment
 
+<img width="1701" height="1134" alt="image" src="https://github.com/user-attachments/assets/bc026267-3730-4347-a517-43263f2bc111" />
+
+<img width="1701" height="1134" alt="image" src="https://github.com/user-attachments/assets/f701ad7d-017c-404d-91d7-e4d4759c5ba0" />
+
+
 Welcome, candidate! This project contains **intentional issues** that mimic real‑world scenarios.
 Your task is to refactor, optimize, and fix these problems.
 
