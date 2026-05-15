@@ -1,12 +1,22 @@
 # Take‑Home Assessment
 
+Item Catalog - React Window
+
 <img width="1411" height="1358" alt="image" src="https://github.com/user-attachments/assets/0fd343f9-1325-4a44-b9f8-a541b1248e83" />
 
+Item Details
 
 <img width="1411" height="888" alt="image" src="https://github.com/user-attachments/assets/420fba20-0d74-438d-8adc-467730e0003f" />
 
+Item Not Found
+
 
 <img width="1411" height="888" alt="image" src="https://github.com/user-attachments/assets/bd1db151-e4fc-4fa2-af92-62b35a451a64" />
+
+Page Not Found
+
+<img width="1411" height="888" alt="image" src="https://github.com/user-attachments/assets/dd2f487b-5068-4d11-9306-c86beffe5913" />
+
 
 
 Welcome, candidate! This project contains **intentional issues** that mimic real‑world scenarios.
