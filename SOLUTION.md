@@ -82,6 +82,14 @@ Markup uses real landmarks (`<nav>`, `<main>`, `<header>`, `<article>`, `<search
 
 `Items.test.js` renders the page against a mocked `fetch` and checks that items appear, that typing in the search box triggers a request with the `q` param, and that unmounting aborts the in-flight request. `react-window` is mocked to render every row synchronously so the assertions don't depend on scroll position.
 
+### Dependency audit
+
+`react-scripts@5.0.1` is unmaintained and its transitive dependencies trip `npm audit` on a fresh install. Running `npm audit fix --force` "resolves" this by installing `react-scripts@0.0.0` — an empty placeholder package with no binary — so the install succeeds but `npm start` then fails with `spawn react-scripts ENOENT`. That's not a fix, so `react-scripts` stays pinned at `5.0.1`.
+
+Instead, the `overrides` block in `package.json` bumps the genuinely fixable transitive deps to patched versions: `nth-check`, `postcss`, `serialize-javascript`, `resolve-url-loader`, `underscore`, and `http-proxy-agent` (the last pulls the Jest/jsdom test toolchain off the vulnerable `@tootallnate/once` chain). That clears 9 of the 11 advisories with no rollback — `npm install`, `npm run build`, `npm start`, and `npm test` all still pass.
+
+The remaining 2 are both `webpack-dev-server`: a dev-server-only advisory with no production or build impact. Its only patched release (`5.x`) makes a breaking API change that `react-scripts@5.0.1`'s internal dev-server config doesn't support — overriding to it gets `npm audit` to zero but crashes `npm start`. Short of replacing the build tooling, the honest choice is to accept those two; they're left in place and called out here.
+
 ## Trade-offs
 
 - Data is still a JSON file on disk. `dataStore.js` is the only thing that touches it, so swapping in SQLite or Postgres later is a contained change.

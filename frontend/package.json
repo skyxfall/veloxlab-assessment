@@ -41,6 +41,7 @@
     "postcss": "^8.5.14",
     "serialize-javascript": "^7.0.5",
     "resolve-url-loader": "^5.0.0",
-    "underscore": "^1.13.8"
+    "underscore": "^1.13.8",
+    "http-proxy-agent": "^7.0.2"
   }
 }
